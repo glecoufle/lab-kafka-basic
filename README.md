@@ -156,8 +156,8 @@ But de l'exercice :   envoyer 10 messages au topic (une boucle allant de 0 à 9
     - props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, BROKER_KAFKA);
     - props.put(ProducerConfig.ACKS_CONFIG, "all");
     - props.put(ProducerConfig.RETRIES_CONFIG, 0);
-    - props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serializa-tion.StringSerializer");
-    - props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serializa-tion.StringSerializer");*
+    - props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
+    - props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
 
 #### Création de l'objet KafkaProducer
 
